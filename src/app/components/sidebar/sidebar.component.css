@@ -1,0 +1,104 @@
+.wrapper {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#a3cef1;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 23%;
+    top: 3.55rem;
+
+}
+.info-perfil{
+  height: 40%;
+}
+.pre-title{
+    padding: 1rem 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #1e1b18
+
+}
+.title {
+    font-size: 3rem;
+    color: #1e1b18;
+  }
+
+.sub-title{
+    padding: .5rem 0;
+    color: #1e1b18;
+}
+
+  .description {
+    padding: .6rem 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    color: #0a1128 ;
+    font-weight: 400;
+    display: block;
+    height: 33.33%;
+    width: 80%;
+   
+  }
+  .info-red-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 30%;
+    width: 100%;
+  }
+  .info-red-social > a {
+    display: block;
+    padding: 0 10px;
+    margin-left: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+  }
+
+  
+   .info-red-social > a > fa-icon {
+    font-size:  50px;
+    color: #000000;
+    transition: all ease-in 200ms;
+   }
+
+   .info-red-social  > a > fa-icon:hover {
+    font-size:  60px;
+  }
+
+   .button-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35%;
+    width: 100%;
+   }
+
+   .button-search .button-portfolio{
+    padding: .7rem;
+    width: 70%;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border: 2px solid #000;
+    background-color: #fdf0d5;
+    box-shadow: 0 0.375em 0 #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all ease 300ms;
+   }
+
+   .button-search .button-portfolio:hover{
+    box-shadow: none;
+    border: 1px solid #000;
+   }
+
+
+

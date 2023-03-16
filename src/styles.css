@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-1 : #00b4d8
+    --color-2 : #bde0fe
+}
+
+@import '~animate.css/animate.min';
+
+body,html {
+    padding: 0;
+    margin: 0;
+    background-color: #edf2fb;
+    color : white;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+.animation-1{
+        animation-delay:0.1s;
+}
+.animation-2{
+    animation-delay:0.2s;
+}
+.animation-3{
+    animation-delay:0.3s;
+}
+.animation-40{
+    animation-delay: 0.4s;
+}
+
+.write-title > span {
+    border-right: 8px solid #1e1b18 !important;
+    
+}
